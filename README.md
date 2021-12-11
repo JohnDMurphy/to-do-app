@@ -2,7 +2,9 @@
 
 > A ToDo app for creating and deleting list items.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](src/images/full-screen.png)
+
+![screenshot](src/images/mobile.png)
 
 ## Built With
 
