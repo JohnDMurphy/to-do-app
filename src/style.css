@@ -52,7 +52,6 @@ li {
   color: #4f091d;
   cursor: pointer;
   transition: 0.5s;
-  transform: rotate(45deg);
 }
 
 .checkbox {
