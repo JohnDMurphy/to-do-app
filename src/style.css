@@ -39,8 +39,24 @@ li {
   list-style-type: none;
 }
 
+.item-header {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .del {
   color: #dd4a48;
+}
+
+.del:hover {
+  color: #4f091d;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
+
+.checkbox {
+  cursor: pointer;
 }
 
 .continer {
@@ -86,11 +102,12 @@ li {
   margin: 2rem;
   margin-top: 1rem;
   border-radius: 5px 5px 5px 5px;
+  padding: 1rem;
 }
 
 .list-item {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }

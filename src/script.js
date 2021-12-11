@@ -1,15 +1,13 @@
 const input = document.querySelector('.my-input');
 const btn = document.querySelector('.my-btn');
-const del = document.querySelector('.del');
-const checkbox = document.querySelector('.checkbox');
-const listItem = document.querySelector('.todo-item')
+const dels = document.querySelectorAll('.del');
+const checkbox = document.querySelectorAll('.checkbox');
+const listItem = document.querySelectorAll('.todo-item')
 
 
 
-checkbox.addEventListener('change', function(){
-    if(checkbox.checked) {
-        listItem.classList.toggle('done');
-    } else {
-        listItem.classList.toggle('done');
-    }
+dels.forEach((del, i) => {
+    del.addEventListener('click', function(){
+        this.parentNode.remove();
+    })
 })
