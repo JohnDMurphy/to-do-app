@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #041c32;
+  background-color: #97bfb4;
+}
+
+h1 {
+  text-align: center;
+  color: #4f091d;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  border: solid 1px #4f091d;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #dd4a48;
+  color: #f5eedc;
+  font-size: 1.8rem;
+}
+
+.input-container > input {
+  font-family: 'Courier New', Courier, monospace;
+  width: 68%;
+  font-size: 1.8rem;
+  border: solid 1px #4f091d;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input {
+  background-color: #f5eedc;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.del {
+  color: #dd4a48;
+}
+
+.continer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .continer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+  }
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin: 2rem;
+  width: 100%;
+}
+
+.list-container {
+  border: 2px solid #4f091d;
+  width: 100%;
+  margin: 2rem;
+  margin-top: 1rem;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
