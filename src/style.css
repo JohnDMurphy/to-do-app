@@ -8,6 +8,10 @@ body {
   background-color: #97bfb4;
 }
 
+.done {
+  text-decoration: line-through;
+}
+
 h1 {
   text-align: center;
   color: #4f091d;
@@ -20,14 +24,6 @@ button {
   background-color: #dd4a48;
   color: #f5eedc;
   font-size: 1.8rem;
-}
-
-.input-container > input {
-  font-family: 'Courier New', Courier, monospace;
-  width: 68%;
-  font-size: 1.8rem;
-  border: solid 1px #4f091d;
-  border-radius: 5px 5px 5px 5px;
 }
 
 input {
@@ -43,8 +39,30 @@ li {
   list-style-type: none;
 }
 
+.todo-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-header {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .del {
   color: #dd4a48;
+}
+
+.del:hover {
+  color: #4f091d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.checkbox {
+  cursor: pointer;
 }
 
 .continer {
@@ -76,17 +94,27 @@ li {
   width: 100%;
 }
 
+.input-container > input {
+  font-family: 'Courier New', Courier, monospace;
+  width: 68%;
+  font-size: 1.8rem;
+  border: solid 1px #4f091d;
+  border-radius: 5px 5px 5px 5px;
+}
+
 .list-container {
   border: 2px solid #4f091d;
   width: 100%;
   margin: 2rem;
   margin-top: 1rem;
   border-radius: 5px 5px 5px 5px;
+  padding: 1rem;
 }
 
 .list-item {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 0.8rem 0;
 }
