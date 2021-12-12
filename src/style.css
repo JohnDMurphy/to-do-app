@@ -39,6 +39,13 @@ li {
   list-style-type: none;
 }
 
+.todo-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .item-header {
   text-decoration: underline;
   text-align: center;
