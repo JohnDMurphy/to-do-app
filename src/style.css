@@ -1,120 +1,122 @@
 html,
 body {
-  margin: 0;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #041c32;
-  background-color: #97bfb4;
+	margin: 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #041c32;
+	background-color: #97bfb4;
 }
 
 .done {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 h1 {
-  text-align: center;
-  color: #4f091d;
+	text-align: center;
+	color: #4f091d;
 }
 
 button {
-  font-family: 'Courier New', Courier, monospace;
-  border: solid 1px #4f091d;
-  border-radius: 5px 5px 5px 5px;
-  background-color: #dd4a48;
-  color: #f5eedc;
-  font-size: 1.8rem;
+	font-family: 'Courier New', Courier, monospace;
+	border: solid 1px #4f091d;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #dd4a48;
+	color: #f5eedc;
+	font-size: 1.8rem;
 }
 
 input {
-  background-color: #f5eedc;
+	background-color: #f5eedc;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .todo-item {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .item-header {
-  text-decoration: underline;
-  text-align: center;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .del {
-  color: #dd4a48;
+	color: #dd4a48;
 }
 
 .del:hover {
-  color: #4f091d;
-  cursor: pointer;
-  transition: 0.5s;
+	color: #4f091d;
+	cursor: pointer;
+	transition: 0.5s;
 }
 
 .checkbox {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .continer {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
 }
 
 @media only screen and (max-width: 800px) {
-  .continer {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-  }
+	.continer {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 95%;
+	}
 }
 
 .input-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  margin: 2rem;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	margin: 2rem;
+	width: 100%;
 }
 
 .input-container > input {
-  font-family: 'Courier New', Courier, monospace;
-  width: 68%;
-  font-size: 1.8rem;
-  border: solid 1px #4f091d;
-  border-radius: 5px 5px 5px 5px;
+	font-family: 'Courier New', Courier, monospace;
+	width: 68%;
+	font-size: 1.8rem;
+	border: solid 1px #4f091d;
+	border-radius: 5px 5px 5px 5px;
 }
 
 .list-container {
-  border: 2px solid #4f091d;
-  width: 100%;
-  margin: 2rem;
-  margin-top: 1rem;
-  border-radius: 5px 5px 5px 5px;
-  padding: 1rem;
+	border: 2px solid #4f091d;
+	width: 100%;
+	margin: 2rem;
+	margin-top: 1rem;
+	border-radius: 5px 5px 5px 5px;
+	padding: 1rem;
 }
 
 .list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin: 0.8rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0.8rem 0;
 }
